@@ -42,6 +42,12 @@ server.get<{ Params: DriversParams }>(
   }
 );
 
-const port = Number(process.env.PORT);
+const PORT = Number(process.env.PORT) || 3333;
 
-server.listen({ port });
+server.listen({ port: PORT, host: '0.0.0.0' })
+.then(() => {
+  console.log(`HTTP Server running on http://localhost:${PORT}`);
+}).catch(err => {
+  server.log.error(err);
+  process.exit(1);
+});
