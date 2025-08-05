@@ -13,7 +13,7 @@ export const BossesDescription = ({
   useEffect(() => {
     const CarregarDatas = async () => {
       try {
-        const res = await axios.get(`http://127.0.0.1:3333/megaman-bosses`);
+        const res = await axios.get(`https://projeto-megaman-backend.onrender.com/megaman-bosses`);
         setBosses(res.data.megamanBosses);
         setLoading(false);
       } catch (error) {

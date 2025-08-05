@@ -9,7 +9,7 @@ export const WeaponsList = () => {
   useEffect(() => {
     const CarregarDatas = async () => {
       try {
-        const res = await axios.get(`http://127.0.0.1:3333/megaman-weapons`);
+        const res = await axios.get(`https://projeto-megaman-backend.onrender.com/megaman-weapons`);
         setWeapons(res.data.megamanWeapons);
         setLoading(false);
       } catch (error) {
