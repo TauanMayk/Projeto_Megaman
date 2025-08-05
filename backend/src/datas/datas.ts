@@ -2,7 +2,7 @@ const megamanBosses = [
   {
       id:1,
       name: "Cut Man",
-      image: "http://127.0.0.1:3333/images/bosses-images/Cut-Man.gif",
+      image: "https://projeto-megaman-backend.onrender.com/images/bosses-images/Cut-Man.gif",
       description: "Mestre das lâminas, salta alto e lança tesouras cortantes. Vulnerável ao Super Arm.",
       weakness: "Super Arm",
       stage: "Cut Man Stage"
@@ -10,7 +10,7 @@ const megamanBosses = [
     {
       id: 2,
       name: "Guts Man",
-      image: "http://127.0.0.1:3333/images/bosses-images/Guts-Man.gif",
+      image: "https://projeto-megaman-backend.onrender.com/images/bosses-images/Guts-Man.gif",
       description: "Fortão capaz de arremessar blocos enormes. Devagar, mas mortal de perto. Vulnerável ao Hyper Bomb.",
       weakness: "Hyper Bomb",
       stage: "Guts Man Stage"
@@ -18,7 +18,7 @@ const megamanBosses = [
     {
       id: 3,
       name: "Elec Man",
-      image: "http://127.0.0.1:3333/images/bosses-images/Elec-Man.png",
+      image: "https://projeto-megaman-backend.onrender.com/images/bosses-images/Elec-Man.png",
       description: "Ágil e elétrico, dispara raios verticais poderosos. Mario exige reflexos rápidos. Vulnerável ao Rolling Cutter.",
       weakness: "Rolling Cutter",
       stage: "Elec Man Stage"
@@ -26,7 +26,7 @@ const megamanBosses = [
     {
       id: 4,
       name: "Ice Man",
-      image: "http://127.0.0.1:3333/images/bosses-images/Ice-Man.png",
+      image: "https://projeto-megaman-backend.onrender.com/images/bosses-images/Ice-Man.png",
       description: "Atira rajadas congelantes que desaceleram o jogador. Pode congelar a Mega Man. Vulnerável ao Thunder Beam.",
       weakness: "Thunder Beam",
       stage: "Ice Man Stage"
@@ -34,7 +34,7 @@ const megamanBosses = [
     {
       id: 5,
       name: "Fire Man",
-      image: "http://127.0.0.1:3333/images/bosses-images/Fire-Man.gif",
+      image: "https://projeto-megaman-backend.onrender.com/images/bosses-images/Fire-Man.gif",
       description: "Envolto em chamas e capaz de lançar bolas de fogo em redor. Vulnerável ao Ice Slasher.",
       weakness: "Ice Slasher",
       stage: "Fire Man Stage"
@@ -42,7 +42,7 @@ const megamanBosses = [
     {
       id: 6,
       name: "Bomb Man",
-      image: "http://127.0.0.1:3333/images/bosses-images/Bomb-Man.png",
+      image: "https://projeto-megaman-backend.onrender.com/images/bosses-images/Bomb-Man.png",
       description: "Arremessa várias bombas que explodem com atraso. Pode cercar o jogador. Vulnerável ao Fire Storm.",
       weakness: "Fire Storm",
       stage: "Bomb Man Stage"
@@ -50,7 +50,7 @@ const megamanBosses = [
     {
       id: 7,
       name: "Yellow Devil",
-      image: "http://127.0.0.1:3333/images/bosses-images/Yellow-Devil.png",
+      image: "https://projeto-megaman-backend.onrender.com/images/bosses-images/Yellow-Devil.png",
       description: "Aberração que aparece e some lentamente, atacando em ondas. Precisa ser atingido em partes. Vulnerável ao Thunder Beam.",
       weakness: "Thunder Beam",
       stage: "Wily Castle"
@@ -70,7 +70,7 @@ const megamanWeapons = [
       id: 1,
       name: "Cut Man / Rolling Cutter",
       from: "Cut Man",
-      image: "http://127.0.0.1:3333/images/weapons-images/375px-RollingCutterArtwork.png",
+      image: "https://projeto-megaman-backend.onrender.com/images/weapons-images/375px-RollingCutterArtwork.png",
       description: "Corta inimigos com lâminas giratórias teleguiadas. Ideal para inimigos móveis, com bom alcance lateral.",
       weak_against: "Super Arm",
       other_effective: ["Hyper Bomb","Fire Storm"],
@@ -80,7 +80,7 @@ const megamanWeapons = [
       id: 2,
       name: "Guts Man / Super Arm",
       from: "Guts Man",
-      image: "http://127.0.0.1:3333/images/weapons-images/375px-SuperArm.png",
+      image: "https://projeto-megaman-backend.onrender.com/images/weapons-images/375px-SuperArm.png",
       description: "Permite levantar e arremessar blocos pesados como projéteis devastadores. Excelente contra armadilhas ou chefões lentos.",
       weak_against: "Hyper Bomb",
       other_effective: ["Fire Storm"],
@@ -90,7 +90,7 @@ const megamanWeapons = [
       id: 3,
       name: "Ice Slasher",
       from: "Ice Man",
-      image: "http://127.0.0.1:3333/images/weapons-images/375px-IceSlasher.png",
+      image: "https://projeto-megaman-backend.onrender.com/images/weapons-images/375px-IceSlasher.png",
       description: "Projétil de nitrogênio que congela adversários no impacto, permitindo combos gratuitos com outras armas.",
       weak_against: "Thunder Beam",
       other_effective: ["Hyper Bomb","Fire Storm","Rolling Cutter"],
@@ -100,7 +100,7 @@ const megamanWeapons = [
       id: 4,
       name: "Fire Storm",
       from: "Fire Man",
-      image: "http://127.0.0.1:3333/images/weapons-images/375px-FireStorm.png",
+      image: "https://projeto-megaman-backend.onrender.com/images/weapons-images/375px-FireStorm.png",
       description: "Bola de fogo envolta por uma aura flamejante que danifica quem encosta; ideal em áreas fechadas ou contra chefes lentos.",
       weak_against: "Ice Slasher",
       other_effective: ["Rolling Cutter"],
@@ -110,7 +110,7 @@ const megamanWeapons = [
       id: 5,
       name: "Thunder Beam",
       from: "Elec Man",
-      image: "http://127.0.0.1:3333/images/weapons-images/375px-ThunderBeam.png",
+      image: "https://projeto-megaman-backend.onrender.com/images/weapons-images/375px-ThunderBeam.png",
       description: "Feixe elétrico que traça caminho para cima e para baixo, capaz de perfurar múltiplos inimigos e chefes.",
       weak_against: "Rolling Cutter",
       other_effective: ["Super Arm","Hyper Bomb"],
